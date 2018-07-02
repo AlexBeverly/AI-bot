@@ -5,7 +5,7 @@ import discord
 from chatterbot import ChatBot
 from chatterbot.response_selection import get_random_response
 
-bot = ChatBot("Shrek",
+bot = ChatBot("Bot",
 	response_selection_method = get_random_response,
 	read_only = True)
 
