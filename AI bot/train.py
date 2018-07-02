@@ -1,7 +1,7 @@
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot import ChatBot
 
-bot = ChatBot("Shrek")
+bot = ChatBot("Bot")
 
 bot.set_trainer(ChatterBotCorpusTrainer)
 
